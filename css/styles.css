@@ -339,9 +339,13 @@ img {
 /* ============== PORTFOLIO ============== */
 
 /* ============== MAIN PORTFOLIO ============== */
-.portfolio {
+
+.button-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 96px;
+  margin-bottom: 72px;
 }
 
 .button-item {
@@ -356,6 +360,7 @@ img {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .button-item:not(:last-child) {
@@ -370,7 +375,12 @@ img {
 
 .portfolio-list {
   display: flex;
-  flex-basis: calc(100% / 3);
+  flex-wrap: wrap;
+}
+
+.portfolio-items {
+  justify-content: center;
+  align-content: center;
 }
 
 .portfolio-description {
