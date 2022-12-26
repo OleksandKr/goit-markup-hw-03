@@ -119,6 +119,11 @@ img {
   color: var(--text-button-color);
 }
 
+.contact-link {
+  display: flex;
+  margin-left: auto;
+}
+
 .contact {
   font-size: var(--dominant-type-font-size);
   line-height: 1.5;
@@ -128,8 +133,10 @@ img {
 
 .mail {
   margin-right: 40px;
-  margin-left: auto;
 }
+
+/* .tel {
+} */
 
 .contact:hover,
 .contact:focus {
