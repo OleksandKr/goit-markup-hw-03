@@ -201,6 +201,8 @@ img {
 }
 
 .advantages {
+  padding-left: 0;
+  padding-right: 0;
   padding-bottom: 0;
 }
 
@@ -289,13 +291,12 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-member {
-  margin-top: 32px;
-  margin-bottom: var(--h2-margin-bottom);
+.position-team {
+  padding: 32px 16px;
 }
 
-.position-member {
-  margin-bottom: 32px;
+.team-member {
+  margin-bottom: var(--h2-margin-bottom);
 }
 
 .team-member {
@@ -352,6 +353,11 @@ img {
 /* ============== PORTFOLIO ============== */
 
 /* ============== MAIN PORTFOLIO ============== */
+
+.portfolio {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .button-list {
   display: flex;
@@ -415,9 +421,10 @@ img {
 
 .container-border {
   padding: 32px 0;
-  border-left: 0.5px solid #f4f4fd;
-  border-right: 0.5px solid #f4f4fd;
-  border-bottom: 0.5px solid #f4f4fd;
+  padding-left: 16px;
+  border-left: 1px solid #f4f4fd;
+  border-right: 1px solid #f4f4fd;
+  border-bottom: 1px solid #f4f4fd;
   gap: 24px;
   width: 360px;
 }
